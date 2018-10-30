@@ -16,6 +16,26 @@ public class PBO6K10116599Latihan57Vehicle {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+        Bicycle bicycle = new Bicycle();
+        bicycle.setMyBrand("Trek Bike");
+        bicycle.setMyModel("7.4FX");
+        bicycle.setMyGearCount(23);
+
+        System.out.println("Brand\t\t: " + bicycle.getMyBrand());
+        System.out.println("Model\t\t: " + bicycle.getMyModel());
+        System.out.println("Jumlah Gear\t: " + bicycle.getMyGearCount());
+        System.out.println();
+
+        Skateboard skateboard = new Skateboard();
+        skateboard.setMyBrand("Ally Skate");
+        skateboard.setMyModel("Roket");
+        skateboard.setMyBoardLength(54.5);
+
+        System.out.println("Brand\t\t: " + skateboard.getMyBrand());
+        System.out.println("Model\t\t: " + skateboard.getMyModel());
+        System.out.println("Panjangnya Board: " + skateboard.getMyBoardLength());
+
     }
-    
+
 }
